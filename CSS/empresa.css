@@ -1,0 +1,110 @@
+#menú {
+	width:100%;
+	padding-top:10px;
+	margin:auto;
+	background:#FFFFE0;
+}
+#menú ul a{
+	text-decoration: none;
+	color: #663366;
+	font: bold 18px Cambria;
+	padding: 20px 20px 20px 20px;
+	margin-right: -8px;
+	transition: background .2s, padding .2s;
+	
+}
+#menú ul a:hover{
+	background:#FFE4E1;
+	padding: 17px 17px 17px 17px;
+	height: auto;
+	width: auto;
+	max-width: 100%;
+	overflow: hidden;
+	background: transparent;
+	margin: 0;
+	position: static;
+}
+	
+input[type="search"]{
+    width: 55%; 
+    padding: 9px 10px 9px 30px;
+    border-radius: 18em;
+    -webkit-transition: all .5s; /* transición de .5seg a todos los elementos para chrome*/
+    -moz-transition: all .5s; /* transición de .5seg a todos los elementos para mozilla*/
+    -o-transition: all .5s; /* transición de .5seg a todos los elementos para ophera*/
+    transition: all .5s; /* transición de .5seg a todos los elementos*/
+    outline: none; /* ocultar el fucos automático de los input */
+}
+input[type="search"]:focus{
+    color: #000;
+    background-color: #FFF;
+}
+	
+
+
+h3 {	
+	font-family: Lucida Calligraphy;
+	color: #9900cc;
+	width: 500px;
+	height: auto;
+	margin: 10px auto; }
+	
+h2 {	
+	font-family: Freehand521 BT;
+	color: #555555;
+	width: 500px;
+	height: auto;
+	margin: 10px auto; }
+
+p { font-family:Segoe Print ;
+	font-size: 15pt ;
+	height:auto;
+	margin: 10px auto; }
+
+#cuerpo{
+	height:60%;
+	padding:20px 0;
+	}
+#pie{
+	
+	font-family:Lucida Calligraphy;
+	width:100%;
+	clear:both;
+	float: right;
+	border: 0;
+	margin-top: 2px;
+	overflow: auto;
+	font-size: 16px;
+	text-align: justify;
+}
+
+
+.efectors{
+display:block!important;
+-webkit-transition:-webkit-transform 1s ease-out;
+-moz-transition:-moz-transform 1s ease-out;
+-o-transition:-o-transform 1s ease-out;
+-ms-transition:-ms-transform 1s ease-out;
+transition:transform 1s ease-out;
+}
+
+.efectors:hover{
+-moz-transform: scale(1.1);
+-webkit-transform: scale(1.1);
+-o-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1)
+}
+.opacity img {
+filter:alpha(opacity=90);
+-moz-opacity: 0.9;
+opacity: 0.9;}
+
+.opacity:hover img {
+filter:alpha(opacity=110);
+-moz-opacity: 1.1;
+opacity: 1.1;
+}
+
+
+

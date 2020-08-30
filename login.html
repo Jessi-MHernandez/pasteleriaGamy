@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<title> Login </title>
+        <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="CSS/registro.css" type="text/css" rel="stylesheet"> 
+    <link href="CSS/estilo.css" type="text/css" rel="stylesheet">   
+	</head>
+ 
+<body>
+<table width=100% background="images/fondo.jpeg" >
+		<tr>
+			<td>
+				<div id="encabezado" >
+				<img src="images/pgamy1.png" width="210px">
+					
+				</div>
+			</td>
+	
+			<td>
+				<div id="encabezado2">
+					<center> <h3>Pastelería de vanguardia para tu evento</h3> </center>
+				</div>
+			</td>
+		</tr>
+	</table>
+<br>
+<br>
+<br>
+<br>
+<br><br>
+<center>
+     <form id="login" action="comprobacion.php" method="POST">
+	 	<div class="form-horizontal">
+			<div class="col-sm-10">
+				<div class="form-group">
+                    <p><label class="col-sm-4 control-label">Usuario:</label></p>
+               			<div class="col-sm-6">
+							<input type ="text" name="user"  class="form-control" id="user" placeholder="Usuario" required>
+						</div>
+				</div>
+                 
+				<div class="form-group">
+					<p><label class="col-sm-4 control-label">Contraseña:</label></p>
+               			<div class="col-sm-6">
+							<input type ="password" name="pass"  class="form-control" id="pass" placeholder="Contraseña" required>
+						</div>
+				</div>
+
+				<div class="form-group">
+					<div class="col-sm-7">
+					  <input class="button" type="button" value="Cancelar" onClick=" window.location.href='index.html' ">
+						
+						<input class="button" type="submit" name="enviar" value="Iniciar Sesión">		
+					</div>
+				</div>
+				</div>
+				</div> 
+                </form>
+            
+ </center>
+     
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+</body>
+</html>
